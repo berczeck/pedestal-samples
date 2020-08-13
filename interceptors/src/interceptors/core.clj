@@ -1,5 +1,5 @@
-(ns pedestal-samples.core
-  (:require [pedestal-samples.routes :as service]
+(ns interceptors.core
+  (:require [interceptors.routes :as service]
             [io.pedestal.http :as http])
   (:gen-class))
 

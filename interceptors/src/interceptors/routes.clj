@@ -1,6 +1,6 @@
-(ns pedestal-samples.routes
+(ns interceptors.routes
 	(:require [io.pedestal.http.route :as route]
-						[pedestal-samples.handler :as handler]
+						[interceptors.handler :as handler]
 						[clojure.data.json :as json]
 						[io.pedestal.interceptor.error :as error-int]
 						[io.pedestal.http.body-params :as body-params]))
